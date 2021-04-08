@@ -14,28 +14,30 @@
 
         <div class="navbar">
             <ul>
-                <a class="active" href="index.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="#Projects">Projects</a>
-                <a href="#Contact Me">Contact Me</a>
+                <a href="projects.html">Projects</a>
+                <a class="active" href="contactme.html">Contact Me</a>
             </ul>
         </div>
         
         <body>
-            
-            <div class="bg-imageimg1"></div>
-            <div class="bg-image img2"></div>
-            <div class="bg-image img3"></div>
-            
-            
-            <div class="bg-text">Welcome to my portfolio</div>
-             
-                <h2 id="Projects" alt="coming soon">Projects</h2>
-                    <img src=images/KMN_0440.jpg alt="Password Generator" width="400" height="250">
-                    <img src=images/KMN_0778.jpg alt="Code Quiz" width="400" height="250">
-                    <img src=images/KMN_0411.jpg alt="Day Planner" width="400" height="250">
+           <h2 id="Contact Me">Contact Me</h2>
+           <div class="container">
+               <form action="#">
+                   <label for="fname">First Name></label>
+                   <input type="text" id="fname" name="firstname" placeholder="Your name...">
 
-                <h2 id="Contact Me">Contact Me</h2>
+                   <label for="lname">Last Name></label>
+                   <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                  
+                   <label for="subject">Subject</label>
+                   <textarea id="subjet" name="subject" placeholder="Write your message here..." style="height:300px"></textarea>
+                   <input type="submit" value="Submit">
+                   
+               </form>
+           </div>
             
 
             
