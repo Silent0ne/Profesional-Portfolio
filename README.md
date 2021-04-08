@@ -2,4 +2,4 @@
 My personal portfolio with all previous and current projects
 
 
-https://github.com/Silent0ne/Profesional-Portfolio.git
+https://silent0ne.github.io/Profesional-Portfolio/
